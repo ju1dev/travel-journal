@@ -1,0 +1,56 @@
+$header-color: #394360;
+$bg-color: #333;
+$nav-color: whitesmoke;
+$font-dark: #fff;
+$font-light: #111;
+* {
+    font-family: 'Fira sans', sans-serif;
+    margin: 0;
+}
+
+body {
+    background-color: $bg-color;
+    color: $font-dark;
+    
+}
+
+.navbar {
+    display: flex;
+    background-color: $nav-color;
+    color: $font-light;
+    padding: 10px;
+
+    span {
+        margin: 0px auto;
+        display: flex;
+        align-items: center;
+    }
+}
+.icon {
+    width: 30px;
+    margin-right: 4px;
+}
+
+.card-elements {
+    .card {
+        display: flex;
+        flex-direction: row;
+        margin-top: 20px;
+        img {
+            width: 180px;
+            height: 280px;
+            margin-left: auto;
+            margin-right: 25px;
+            border-radius: 15px;
+        }
+        .card-content {
+            width: 600px;
+            margin-top: 20px;
+            margin-right: auto;
+        
+        }
+    
+        
+    }
+}
+
